@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="concurrentTest" parallel="tests" thread-count="2">
+  <test name="192.168.1.111:7417">
+    <parameter name="udid" value="192.168.1.111:7417"/>
+    <classes>
+      <class name="Day16.TestGird"/>
+    </classes>
+  </test>
+  <test name="192.168.1.111:7409">
+    <parameter name="udid" value="192.168.1.111:7409"/>
+    <classes>
+      <class name="Day16.TestGird"/>
+    </classes>
+  </test>
+</suite>

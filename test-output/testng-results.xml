@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="concurrentTest" duration-ms="57293" started-at="2018-03-22T06:51:12Z" finished-at="2018-03-22T06:52:10Z">
+    <groups>
+    </groups>
+    <test name="192.168.1.111:7409" duration-ms="44720" started-at="2018-03-22T06:51:12Z" finished-at="2018-03-22T06:51:57Z">
+      <class name="Day16.TestGird">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:Day16.TestGird@74294adb]" name="beforeSuite" is-config="true" duration-ms="7" started-at="2018-03-22T14:51:12Z" finished-at="2018-03-22T14:51:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="setServ(java.lang.String)[pri:1, instance:Day16.TestGird@74294adb]" name="setServ" duration-ms="5147" started-at="2018-03-22T14:51:12Z" finished-at="2018-03-22T14:51:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[192.168.1.111:7409]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setServ -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:2, instance:Day16.TestGird@74294adb]" name="setUp" duration-ms="23850" started-at="2018-03-22T14:51:17Z" finished-at="2018-03-22T14:51:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[192.168.1.111:7409]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginZhiHu()[pri:3, instance:Day16.TestGird@74294adb]" name="loginZhiHu" duration-ms="12330" started-at="2018-03-22T14:51:41Z" finished-at="2018-03-22T14:51:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginZhiHu -->
+        <test-method status="PASS" signature="quit()[pri:4, instance:Day16.TestGird@74294adb]" name="quit" duration-ms="3381" started-at="2018-03-22T14:51:54Z" finished-at="2018-03-22T14:51:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:Day16.TestGird@74294adb]" name="afterSuite" is-config="true" duration-ms="0" started-at="2018-03-22T14:52:10Z" finished-at="2018-03-22T14:52:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- Day16.TestGird -->
+    </test> <!-- 192.168.1.111:7409 -->
+    <test name="192.168.1.111:7417" duration-ms="57293" started-at="2018-03-22T06:51:12Z" finished-at="2018-03-22T06:52:10Z">
+      <class name="Day16.TestGird">
+        <test-method status="PASS" signature="setServ(java.lang.String)[pri:1, instance:Day16.TestGird@27fe3806]" name="setServ" duration-ms="5973" started-at="2018-03-22T14:51:12Z" finished-at="2018-03-22T14:51:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[192.168.1.111:7417]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setServ -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:2, instance:Day16.TestGird@27fe3806]" name="setUp" duration-ms="28851" started-at="2018-03-22T14:51:18Z" finished-at="2018-03-22T14:51:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[192.168.1.111:7417]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginZhiHu()[pri:3, instance:Day16.TestGird@27fe3806]" name="loginZhiHu" duration-ms="17094" started-at="2018-03-22T14:51:47Z" finished-at="2018-03-22T14:52:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginZhiHu -->
+        <test-method status="PASS" signature="quit()[pri:4, instance:Day16.TestGird@27fe3806]" name="quit" duration-ms="5366" started-at="2018-03-22T14:52:04Z" finished-at="2018-03-22T14:52:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- Day16.TestGird -->
+    </test> <!-- 192.168.1.111:7417 -->
+  </suite> <!-- concurrentTest -->
+</testng-results>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:P="http://www.springframework.org/schema/c"
+       xmlns:util="http://www.springframework.org/schema/util"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+              http://www.springframework.org/schema/beans/spring-beans.xsd
+            http://www.springframework.org/schema/util
+            http://www.springframework.org/schema/util/spring-util.xsd">
+
+
+
+    <bean class="io.appium.java_client.AppiumDriver">
+        <constructor-arg index="0" type="java.net.URL" value="http://192.168.1.101:4444/wd/hub"/>
+        <constructor-arg index="1" type="org.openqa.selenium.Capabilities" ref="DesiredCapabilities"/>
+    </bean>
+
+    <bean id="DesiredCapabilities"
+          class="org.openqa.selenium.remote.DesiredCapabilities"
+            P:rawMap-ref="map"/>
+
+
+
+
+    <util:map id="map">
+        <entry key="platformName" value="Android"/>
+        <entry key="platformVersion" value="4.4.4"/>
+        <entry key="deviceName" value="xiaoyaoyou"/>
+
+        <entry key="udid" value="127.0.0.1:21503"/>
+        <!--<entry key="udid" value="127.0.0.1:21513"/>-->
+
+        <entry key="resetKeyboard" value="True"/>
+        <entry key="unicodeKeyboard" value="True"/>
+        <entry key="appPackage" value="com.android.browser"/>
+        <entry key="appActivity" value=".BrowserActivity"/>
+    </util:map>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</beans>

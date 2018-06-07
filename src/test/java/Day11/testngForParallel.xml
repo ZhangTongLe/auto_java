@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="APPIUM实战并发" parallel="tests" thread-count="2">
+
+	<test name="测试1">
+
+		<parameter name="udid" value="127.0.0.1:21503" />
+
+		<classes>
+			<class name="Day11.TestGird"/>
+		</classes>
+	</test>
+
+
+	<test name="测试2">
+		<parameter name="udid" value="127.0.0.1:21513" />
+
+		<classes>
+			<class name="Day11.TestGird"/>
+		</classes>
+	</test>
+
+
+
+</suite> 

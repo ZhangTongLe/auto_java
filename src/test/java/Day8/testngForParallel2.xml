@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="APPIUM实战并发2" parallel="tests" thread-count="2">
+
+	<test name="测试1">
+
+		<classes>
+			<class name="Day8.TestGird2"/>
+		</classes>
+	</test>
+
+
+	<test name="测试2">
+
+		<classes>
+			<class name="Day8.TestGird2"/>
+		</classes>
+	</test>
+
+
+
+</suite> 
